@@ -1,0 +1,26 @@
+body {
+    background-color:#EEEEEE;
+}
+
+h1 {
+    color: black;
+    margine-left: 20px;
+    text-align: center;
+}
+
+p {
+    border: 1px solid #EEEEEE;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    text-align: center;
+}
+
+
+.img-container-block {
+  text-align: center;
+}
+.img-container-inline {
+  text-align: center;
+  display: block;
+}
