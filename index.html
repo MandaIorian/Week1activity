@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title> Earth *sadface* </title>
+        <link rel="stylesheet" type="text/css" href="mystyle.css"">
 	</head>
 	<body>
 		
@@ -10,11 +11,11 @@
 		<h1>This Is What Planet Earth's Ultimate Fate Will Be</h1>
         
         <!-- Image -->
+        <div class="img-container-block">                                                
 		<a href="images/sample.jpg">
-			<img src="images/sample.jpg" alt="My Sample Image" width="700" height="450">
-		</a>
-		
-
+			<img src="images/sample.jpg" alt="My Sample Image"  width="auto" height="auto">
+                                                                                       </a></div>
+		                                   
 		<!-- Paragraph -->
 		<p>
 			It took the Universe <strong> 13.8 billion years </strong> to create planet Earth as we know it, but we won't <em>last forever</em>. 
@@ -30,46 +31,63 @@
 		</p>
 
 		<!-- Lists -->
-		<ul>
-			<li> Catastrophic climate change</li>
-			<li> Nuclear War </li>
-			<li> Ecological Catastrophe </li>
-			<li> Global System Collapse </li>
-            <li> Supervolcano </li>
+             
+            
+       <style>
+ul {
+    width:100%;
+    height:50px;
+    text-align:center;
+}
+li {
+    display:block;
+    margin-right:10px;
+    align: center;
+}
+</style>
+<ul>
+            <li>  Catastrophic Climate Change </li>
+            <li> Nuclear War </li>
+            <li> Ecological Catastrophe </li>
+            <li> Global System Collapse </li>
+            <li> Super Volcano </li>
             <li> Artificial Intelligence </li>
-		</ul>
+            </ul>
+
+                                                                                                                                 
+</div>
 
 		
 
 
-		<br>
+		<br><br><br><br><br><br>
 		<hr>
 		<br>
 
 		<!-- Forms -->
         <h1> Submit your details if you want to move to Mars. </h1>
 		<form action="process.php" method="POST">
-			<div>
+			<div class="img-container-block"> 
 				<label>First Name</label>
-				<input type="text" name="firstName" placeholder="Enter first name">
+				<input type="text" name="firstName" placeholder="Enter First Name">
 			</div>
 			<br>
-			<div>
+			<div class="img-container-block">
 				<label>Last Name</label>
-				<input type="text" name="lastName">
+				<input type="text" name="lastName" placeholder="Enter Last Name">
 			</div>
 			<br>
-			<div>
+			<div class="img-container-block">
 				<label>Email</label>
-				<input type="email" name="email">
+				<input type="email" name="email" placeholder="Enter Email Address">
 			</div>
 			<br>
-			<div>
+			<div class="img-container-block">
 				<label> Last Message to humanity. </label>
 				<textarea name="message"></textarea>
 			</div>
 			<br>
-			<div>
+			<div class="img-container-block">
 				<label>Gender</label>
 				<select name="gender">
 					<option value="male">Male</option>
@@ -78,17 +96,18 @@
 				</select>
 			</div>
 			<br>
-				<div>
+				<div class="img-container-block">
 					<label>Age:</label>
 					<input type="number" name="age" value="30">
 				</div>
 				<br>
-				<div>
+				<div class="img-container-block">
 					<label>Birthday:</label>
 					<input type="date" name="birthday">
 				</div>
 				<br>
-				<input type="submit" name="submit" value="Submit">
+                <div class="img-container-block">
+                <input type="submit" name="submit" value="Submit"></div>
 		</form>
 
 		
@@ -98,12 +117,12 @@
 		
 
 		<!-- Quotations -->
-		<blockquote>
+		<blockquote class="img-container-block">
 			<i>"Man must rise above the Earth—to the top of the atmosphere and beyond—for only thus will he fully understand the world in which he lives"</i>
 		</blockquote>
 
 		
 
 		<div style="margin-top:500px"></div>
-	</body>
+                                     </head></body>
 </html>
